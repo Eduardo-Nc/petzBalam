@@ -5,8 +5,15 @@
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    background: #e6e6e6;
+    padding:10px;
+    background: #0e1f12;
 }
+
+    .main-content-footer h1{
+        font-size:20px;
+        text-align:center;
+        color: white;
+    }
 
     .content-whatsapp{
         display: flex;
@@ -16,8 +23,8 @@
         height: 63px;
         border-radius: 50%;
         position: absolute;
-        bottom: 50px;
-        right: 50px;
+        bottom: 40px;
+        right: 40px;
         z-index: 20;
         background:#00bb2d;
     }
@@ -36,3 +43,11 @@
         width: 39px;
         transition: 0.2s;
     }
+
+
+@media (max-width:960px){
+    .main-content-footer h1{
+        padding-top:10px;
+        font-size:15px;
+    }
+}

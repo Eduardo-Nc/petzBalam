@@ -13,6 +13,9 @@ const Header = () => {
         setAbrir(!abrir)
     }
 
+    const cerrar = () => {
+        setAbrir(false)
+    }
 
     const styleOpen = {
 
@@ -46,7 +49,7 @@ const Header = () => {
                         <nav className="header-menu" style={abrir ? styleClose : styleOpen}>
                             <ul>
                                 <li className="animate__animated animate__flipInY" ><a href="/">Inicio</a></li>
-                                <li className="animate__animated animate__flipInY" ><a href="#nosotros">Sobre nosotros</a></li>
+                                <li className="animate__animated animate__flipInY" ><a onClick={() => cerrar()} href="#nosotros">Sobre nosotros</a></li>
                                 <li className="animate__animated animate__flipInY" ><a href="/">Ubicación</a></li>
                                 <li className="animate__animated animate__flipInY" ><a href="/">Características</a></li>
                                 <li className="animate__animated animate__flipInY" ><a href="/">Beneficios</a></li>
@@ -55,18 +58,32 @@ const Header = () => {
                                 <li className="animate__animated animate__flipInY" ><a href="/">Contacto</a></li>
                             </ul>
 
+                            <div className="content-social-media-movil">
+                                <div className="content-border-social-media-movil">
+                                    <a onClick={() => cerrar()} href="https://wa.me/529991295931/?text=Quiero recibir más información acerca del desarrollo Hacienda PetzBalam Country Land" target="_blank" rel="noreferrer" title="WhatsApp">
+                                        <i className="fab fa-whatsapp animate__animated animate__fadeIn"></i>
+                                    </a>
+                                </div>
+
+                                <div className="content-border-social-media-movil">
+                                    <a onClick={() => cerrar()} href="/" title="Facebook">
+                                        <i className="fab fa-facebook animate__animated animate__fadeIn"></i>
+                                    </a>
+                                </div>
+
+                            </div>
 
                         </nav>
                     </div>
 
                     <div className="content-social-media">
-                        <div>
+                        <div className="content-border-social-media">
                             <a href="https://wa.me/529991295931/?text=Quiero recibir más información acerca del desarrollo" target="_blank" rel="noreferrer" title="WhatsApp">
                                 <i className="fab fa-whatsapp animate__animated animate__fadeIn"></i>
                             </a>
                         </div>
 
-                        <div>
+                        <div className="content-border-social-media">
                             <a href="/" title="Facebook">
                                 <i className="fab fa-facebook animate__animated animate__fadeIn"></i>
                             </a>

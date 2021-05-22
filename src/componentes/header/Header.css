@@ -64,17 +64,42 @@
  }
 
 
-.content-social-media a {
-  
-    margin-left: 13px;
-    margin-left: 13px;
+ .content-social-media-movil{
+       
+    display: none;
+    
+}
 
+
+.content-social-media{
+    display: flex;
+    flex-flow: row column;
+}
+
+
+
+.content-border-social-media{
+    background:rgb(0, 0, 0);
+    padding-top:3.5px;
+    height:40px;
+    width: 40px;
+    display: flex;
+    border-radius:50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13px;
+    margin-left: 13px;
 }
 
 
 .content-social-media i {
-    color: black;
-    font-size:23px;
+    color: rgba(255, 255, 255, 0.829);
+    font-size:19px;
+}
+
+.content-social-media i:hover {
+    color: white;
+    cursor: pointer;
 }
 
 
@@ -94,7 +119,7 @@
 
     .main-content-header {
         height: 11vh;
-        width: 100vw;
+        width: 100vw;;
     }
 
     .content-header {
@@ -104,20 +129,25 @@
 
     .content-logo{
         flex: 1 1 auto;
+        position: absolute;
+        z-index: 10;
     }
 
 
     .content-header img {
         width: 63px;
+        
     }
 
     .content-menu-movile{
         display: flex;
+        position: absolute;
+        right: 25px;
+        z-index: 10;
     }
 
     .content-menu{
         display: flex;
- 
     }
     .header-menu{
         margin-top: 11vh;
@@ -130,9 +160,11 @@
         position: absolute;
         left: 0;
         top: -100vh;
-        height:65vh;
+        height:59vh;
         width: 100vw;
         background: #0e1f12;
+        z-index: 8;
+        overflow: hidden;
     }
 
     .header-menu > ul{
@@ -141,12 +173,40 @@
     
     .header-menu li{
         margin-bottom: 10px;
-        font-size: 22px;
+        font-size: 23px;
        
      }
 
     .content-menu-movile img{
         width: 45px;
+    }
+
+    .content-social-media-movil{
+        margin-top: -10px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+   
+
+    .content-border-social-media-movil{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top:2px;
+        width: 45px;
+        height: 45px;
+        border-radius:50%;
+        background:black;
+    }
+
+    .content-social-media-movil i {
+        color: rgba(255, 255, 255, 0.829);
+        font-size:22px;
     }
     
 }
