@@ -1,0 +1,13 @@
+.main-content-bienvenido{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../imagenes/laguna.jpg);
+    padding: 23%;
+}
+
+
+  

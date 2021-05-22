@@ -1,0 +1,38 @@
+.main-content-footer{
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: #e6e6e6;
+}
+
+    .content-whatsapp{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        width: 63px;
+        height: 63px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+        z-index: 20;
+        background:#00bb2d;
+    }
+
+    .content-whatsapp:hover{
+        cursor: pointer;
+        background:#00bb2cea;
+    }
+
+    .content-whatsapp img{
+        width: 36px;
+        transition: 0.1s;
+    }
+
+    .content-whatsapp img:hover{
+        width: 39px;
+        transition: 0.2s;
+    }

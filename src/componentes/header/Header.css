@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+.main-content-header {
+    width: 98.9vw;
+    height: 15vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: #0e1f12;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
+
+.content-header {
+    width: 97vw;
+    height: 14vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.content-header img {
+    width: 70px;
+}
+
+.content-menu-movile{
+    display: none;
+}
+
+.header-menu{
+    display:flex;
+    margin-top: 17px;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.header-menu > ul{
+    list-style: none;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    align-items: center;
+}
+
+.header-menu li{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 19px;
+   
+ }
+
+.header-menu li > a{
+   text-decoration: none;
+   font-family: 'Cabin', sans-serif;
+   color: #c59032;
+}
+
+.header-menu li > a:hover{
+    color: #dda749;
+ }
+
+
+.content-social-media a {
+  
+    margin-left: 13px;
+    margin-left: 13px;
+
+}
+
+
+.content-social-media i {
+    color: black;
+    font-size:23px;
+}
+
+
+@media (max-width: 1160px){
+    .header-menu li{
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 18px;
+     }
+}
+
+
+@media (max-width: 960px){
+    .header-menu, .content-menu, .content-social-media{
+        display: none;
+    }
+
+    .main-content-header {
+        height: 11vh;
+        width: 100vw;
+    }
+
+    .content-header {
+        width: 90vw;
+        height: 10vh;
+    }
+
+    .content-logo{
+        flex: 1 1 auto;
+    }
+
+
+    .content-header img {
+        width: 63px;
+    }
+
+    .content-menu-movile{
+        display: flex;
+    }
+
+    .content-menu{
+        display: flex;
+ 
+    }
+    .header-menu{
+        margin-top: 11vh;
+        transition: 0.5s;
+        display: flex;
+        flex-flow: column nowrap;
+        padding-top: 30px;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        top: -100vh;
+        height:65vh;
+        width: 100vw;
+        background: #0e1f12;
+    }
+
+    .header-menu > ul{
+        flex-flow: column nowrap;
+    }
+    
+    .header-menu li{
+        margin-bottom: 10px;
+        font-size: 22px;
+       
+     }
+
+    .content-menu-movile img{
+        width: 45px;
+    }
+    
+}

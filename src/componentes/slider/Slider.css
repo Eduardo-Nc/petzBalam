@@ -1,0 +1,16 @@
+.Slider-content{
+    margin-top: 15vh;
+    z-index: 1;
+    width: 100vw;
+}
+
+
+.carousel-item > img{
+    object-fit: cover;
+}
+
+@media (max-width: 960px){
+    .Slider-content{
+        margin-top: 11vh;
+    }
+}
