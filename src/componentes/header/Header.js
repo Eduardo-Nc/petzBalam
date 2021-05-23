@@ -60,13 +60,14 @@ const Header = () => {
 
                             <div className="content-social-media-movil">
                                 <div className="content-border-social-media-movil">
-                                    <a onClick={() => cerrar()} href="https://wa.me/529991295931/?text=Quiero recibir más información acerca del desarrollo Hacienda PetzBalam Country Land" target="_blank" rel="noreferrer" title="WhatsApp">
-                                        <i className="fab fa-whatsapp animate__animated animate__fadeIn"></i>
+                                    <a onClick={() => cerrar()} href="https://instagram.com/hda_sandiegopetzbalam?igshid=13w1oh04gixd2" target="_blank" rel="noreferrer" title="Instagram">
+                                        <i className="fab fa-instagram animate__animated animate__fadeIn"></i>
+
                                     </a>
                                 </div>
 
                                 <div className="content-border-social-media-movil">
-                                    <a onClick={() => cerrar()} href="/" title="Facebook">
+                                    <a onClick={() => cerrar()} href="https://www.facebook.com/Desarrolloinmobiliariopetzbalam/" target="_blank" rel="noreferrer" title="Facebook">
                                         <i className="fab fa-facebook animate__animated animate__fadeIn"></i>
                                     </a>
                                 </div>
@@ -78,13 +79,13 @@ const Header = () => {
 
                     <div className="content-social-media">
                         <div className="content-border-social-media">
-                            <a href="https://wa.me/529991295931/?text=Quiero recibir más información acerca del desarrollo" target="_blank" rel="noreferrer" title="WhatsApp">
-                                <i className="fab fa-whatsapp animate__animated animate__fadeIn"></i>
+                            <a onClick={() => cerrar()} href="https://instagram.com/hda_sandiegopetzbalam?igshid=13w1oh04gixd2" target="_blank" rel="noreferrer" title="Instagram">
+                                <i className="fab fa-instagram animate__animated animate__fadeIn"></i>
                             </a>
                         </div>
 
                         <div className="content-border-social-media">
-                            <a href="/" title="Facebook">
+                            <a href="https://www.facebook.com/Desarrolloinmobiliariopetzbalam/" target="_blank" rel="noreferrer" title="Facebook">
                                 <i className="fab fa-facebook animate__animated animate__fadeIn"></i>
                             </a>
                         </div>

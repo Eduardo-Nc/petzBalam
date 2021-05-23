@@ -1,13 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap');
+
+
 .main-content-bienvenido{
     width: 100%;
     height: 100vh;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
     background-image: url(../../imagenes/laguna.jpg);
-    padding: 23%;
+    padding:80px;
+}
+
+.content-logo-nosotros{
+    width: 50%;
+}
+
+.content-logo-nosotros img{
+    width: 300px;
+}
+
+.content-description-nosotros{
+ 
+    width: 50%;
+}
+
+.content-description-nosotros h3{
+    font-size:23px;
+}
+
+.content-description-nosotros h1{
+    font-family: 'Asap', sans-serif;
+    text-align:center;
+    
 }
 
 
+.content-contact-bienvenido p{
+    font-size:20px;
+    text-align: justify;
+}
+
+/* .content-contact-bienvenido a{
+    text-decoration:none !important;
+    color:white;
+}
+
+.content-contact-bienvenido h2{
+    font-size:20px;
+} */
+
+
+
   
+
+@media (max-width:960px){
+    .main-content-bienvenido{
+        flex-flow: column nowrap;
+        background-image: url(../../imagenes/laguna-movil.jpg);
+       width:100vw;
+       padding:40px;
+    }
+
+    .content-logo-nosotros{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .content-logo-nosotros img{
+        width: 250px;
+        margin-bottom:20px;
+    }
+    
+    .content-description-nosotros{
+        width: 100vw;
+        display: flex;
+        flex-flow:column nowrap;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .content-contact-bienvenido p{
+        width: 90vw;
+        font-size:20px;
+        text-align: justify;
+    }
+    
+
+
+}

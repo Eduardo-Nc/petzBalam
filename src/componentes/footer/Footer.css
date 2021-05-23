@@ -1,6 +1,6 @@
 .main-content-footer{
     width: 100vw;
-    height: 40px;
+    height: 100px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;

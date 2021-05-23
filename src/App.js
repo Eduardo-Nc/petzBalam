@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './componentes/header/Header';
 import Slider from './componentes/slider/Slider';
+import Eslogan from './componentes/eslogan/Eslogan';
 import Bienvenido from './componentes/bienvenido/Bienvenido';
 import Footer from './componentes/footer/Footer';
 
@@ -10,13 +11,15 @@ const App = () => {
     <div className="global-main-content">
       <Header />
 
-      < Slider />
+      <Slider />
 
-      < Bienvenido />
+      <Eslogan />
+
+      <Bienvenido />
 
 
 
-      < Footer />
+      <Footer />
 
     </div>
   )
