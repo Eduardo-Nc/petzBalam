@@ -50,12 +50,12 @@ const Header = () => {
                             <ul>
                                 <li className="animate__animated animate__flipInY" ><a href="/">Inicio</a></li>
                                 <li className="animate__animated animate__flipInY" ><a onClick={() => cerrar()} href="#nosotros">Sobre nosotros</a></li>
-                                <li className="animate__animated animate__flipInY" ><a href="/">Ubicación</a></li>
+                                <li className="animate__animated animate__flipInY" ><a onClick={() => cerrar()} href="#ubicacion">Ubicación</a></li>
                                 <li className="animate__animated animate__flipInY" ><a href="/">Características</a></li>
                                 <li className="animate__animated animate__flipInY" ><a href="/">Beneficios</a></li>
                                 <li className="animate__animated animate__flipInY" ><a href="/">Opciones de pago</a></li>
                                 <li className="animate__animated animate__flipInY" ><a href="/">Galería</a></li>
-                                <li className="animate__animated animate__flipInY" ><a href="/">Contacto</a></li>
+                                <li className="animate__animated animate__flipInY" ><a onClick={() => cerrar()} href="#contacto">Contacto</a></li>
                             </ul>
 
                             <div className="content-social-media-movil">

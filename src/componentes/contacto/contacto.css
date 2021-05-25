@@ -1,0 +1,10 @@
+#contacto{
+    margin-top:11px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#0e1f12;
+    padding-top:50px;
+    padding-bottom:50px;
+}

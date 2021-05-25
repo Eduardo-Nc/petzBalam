@@ -12,7 +12,7 @@ const Bienvenido = () => {
             <div className="content-description-nosotros">
                 <h3>Conócenos</h3>
                 <h1>Hacienda PetzBalam Country Land</h1>
-                <hr style={{ borderTop: '1px solid rgba(0, 0, 0, 0.340)' }}></hr>
+                <hr style={{ borderTop: '1px solid white' }}></hr>
                 <div className="content-contact-bienvenido" style={{textAlign: 'center'}}>
                     {/* <a href="tel:9992474647" ><h2>Llámanos: 999-247-4647</h2></a> */}
                     <p>Somos un desarrollo inmobiliario perfecto para las personas que buscan la mezcla ideal entre la naturaleza y la seguridad de su inversión. </p>

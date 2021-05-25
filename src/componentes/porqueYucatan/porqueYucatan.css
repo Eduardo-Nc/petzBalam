@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+.content-porque {
+    background: rgb(235, 233, 233);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+}
+
+.content-porque>h1 {
+    width: 40%;
+    font-family: 'Asap', sans-serif;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+}
+
+.content-porque>p {
+    width: 50%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+@media (max-width: 960px) {
+    .content-porque {
+        width: 100vw;
+        flex-flow: column nowrap;
+        padding-top: 80px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 80px;
+    }
+    .content-porque > h1 {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    .content-porque > p {
+        width: 89%;
+        padding: 0;
+    }
+}

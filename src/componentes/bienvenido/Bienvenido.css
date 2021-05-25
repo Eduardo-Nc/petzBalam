@@ -26,19 +26,22 @@
 }
 
 .content-description-nosotros h3{
-    font-size:23px;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
 }
 
 .content-description-nosotros h1{
     font-family: 'Asap', sans-serif;
     text-align:center;
-    
+    color:white;
 }
 
 
 .content-contact-bienvenido p{
     font-size:20px;
     text-align: justify;
+    color:white;
 }
 
 /* .content-contact-bienvenido a{

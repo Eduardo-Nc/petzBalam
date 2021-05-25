@@ -4,6 +4,10 @@ import Header from './componentes/header/Header';
 import Slider from './componentes/slider/Slider';
 import Eslogan from './componentes/eslogan/Eslogan';
 import Bienvenido from './componentes/bienvenido/Bienvenido';
+import Porque from './componentes/porqueYucatan/porqueYucatan';
+import Ubicacion from './componentes/ubicacion/ubicacion';
+
+import Contacto from './componentes/contacto/contacto';
 import Footer from './componentes/footer/Footer';
 
 const App = () => {
@@ -17,7 +21,11 @@ const App = () => {
 
       <Bienvenido />
 
+      <Porque />
 
+      <Ubicacion />
+
+      <Contacto />
 
       <Footer />
 
