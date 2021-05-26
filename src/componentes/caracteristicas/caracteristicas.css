@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+#caracteristicas{
+    width: 100vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    align-items: center;
+}
+
+.content-caracteristicas-texto{
+    width: 40%;
+    height:400px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content:center;
+    align-items: center;
+    background: #0e1f12;
+}
+
+.content-caracteristicas-texto h1, p, h3{
+    color:white;
+}
+
+.content-caracteristicas-texto h1{
+    margin-bottom: 15px;
+    font-family: 'Asap', sans-serif;
+    text-transform: capitalize;
+}
+
+.content-caracteristicas-texto p{
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:21px;
+    text-transform: capitalize;
+}
+
+.content-caracteristicas-texto h3{
+    margin-bottom: 15px;
+    font-family: 'Asap', sans-serif;
+    text-transform: capitalize;
+}
+
+.content-caracteristicas-texto img{
+    width: 150px;
+}
+
+.content-caracteristicas-fotos{
+    width: 60%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: rgb(235, 233, 233);
+}
+
+@media (max-width: 960px) {
+    #caracteristicas{
+        flex-flow: column nowrap;
+    }
+
+    .content-caracteristicas-texto{
+        width: 100%;
+    }
+
+    .content-caracteristicas-fotos{
+        width: 100%;
+    }
+    
+}

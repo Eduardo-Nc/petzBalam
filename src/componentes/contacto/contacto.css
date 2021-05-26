@@ -1,10 +1,112 @@
-#contacto{
-    margin-top:11px;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+#contacto {
     width: 100vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: #0e1f12;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+}
+
+.form-contacto {
+    width: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-contacto input {
+    width: 300px;
+    background: #1b3620d3;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    margin-bottom: 7px;
+}
+
+.form-contacto input[type="submit"] {
+    margin-top: 10px;
+    width: 300px;
+    background: #0066ff;
+    color: white;
+    padding: 7px;
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+
+.form-contacto input[type="submit"]:hover {
+    background: #0d57c5;
+}
+
+.content-logo-contacto {
+    width: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-logo-contacto img {
+    width: 140px;
+}
+
+.contacto-footer {}
+
+.contacto-footer h3 {
+    margin-top: 10px;
+    width: 100%;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
-    background:#0e1f12;
-    padding-top:50px;
-    padding-bottom:50px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.contacto-footer label {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+
+
+.contacto-footer h4 {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+
+.contacto-footer h4 a{
+    text-decoration: none;
+    color: rgb(245, 222, 222);
+}
+
+@media (max-width:960px) {
+    #contacto {
+        flex-flow: column nowrap;
+    }
+    .form-contacto {
+        width: 100%;
+    }
+    .content-logo-contacto {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .content-logo-contacto img {
+        width: 180px;
+    }
+    
 }
