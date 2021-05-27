@@ -40,7 +40,7 @@ const Contacto = () => {
                     <h4><i className="fas fa-phone-volume"></i> <a href="tel:9992474647">(999)2474647</a></h4>
 
                     <label>Correo:</label>
-                    <h4><i className="fas fa-envelope"></i>  <a href="mailto:nery-escalante@hotmail.com">nery-escalante@hotmail.com </a> </h4>
+                    <h4><i className="fas fa-envelope"></i>  <a href="mailto:inmobiliaria.koolel.kaab@gmail.com">inmobiliaria.koolel.kaab@gmail.com </a> </h4>
                 </div>
 
                 <div style={{marginTop:'10px'}} className="content-social-media-movil">

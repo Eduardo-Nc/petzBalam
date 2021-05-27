@@ -8,7 +8,7 @@ import parque from '../../imagenes/parque.png';
 import binoculares from '../../imagenes/binoculares.png';
 import chichen from '../../imagenes/chichen.png';
 
-import img04 from '../../imagenes/04.svg';
+import img04 from '../../imagenes/03.svg';
 
 const Caracteristicas = () => {
     return (
