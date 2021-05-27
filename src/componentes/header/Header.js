@@ -54,7 +54,7 @@ const Header = () => {
                                 <li className="animate__animated animate__flipInY" ><a onClick={() => cerrar()} href="#caracteristicas">Características</a></li>
                                 <li className="animate__animated animate__flipInY" ><a href="/">Beneficios</a></li>
                                 <li className="animate__animated animate__flipInY" ><a href="/">Opciones de pago</a></li>
-                                <li className="animate__animated animate__flipInY" ><a href="/">Galería</a></li>
+                                <li className="animate__animated animate__flipInY" ><a onClick={() => cerrar()} href="#galeria">Galería</a></li>
                                 <li className="animate__animated animate__flipInY" ><a onClick={() => cerrar()} href="#contacto">Contacto</a></li>
                             </ul>
 

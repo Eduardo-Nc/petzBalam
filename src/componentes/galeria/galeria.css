@@ -1,0 +1,38 @@
+#galeria{
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+    margin-bottom:30px;
+    padding-right: 30px;
+}
+
+.content-item-galary{
+    overflow: hidden;
+    width: 370px;
+    height: 340px;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom:30px;
+}
+
+.content-item-galary:hover{
+   
+}
+
+
+#galeria img{
+    object-fit: cover;
+    width: 600px;
+    transition: 0.5s;
+}
+
+#galeria img:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    width: 630px;
+}
+

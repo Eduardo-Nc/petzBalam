@@ -55,6 +55,36 @@
     background: rgb(235, 233, 233);
 }
 
+.content-caracteristicas-fotos{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: center;
+    padding:15px;
+    margin-top: 10px;
+}
+
+.content-caracteristicas-item{
+    width: 30%;
+    height:160px;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content:center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content-caracteristicas-item img{
+    width: 60px;
+}
+
+.content-caracteristicas-item h4{
+    margin-top:25px;
+    font-size:17px;
+    text-align:center;
+}
+
 @media (max-width: 960px) {
     #caracteristicas{
         flex-flow: column nowrap;
@@ -67,5 +97,17 @@
     .content-caracteristicas-fotos{
         width: 100%;
     }
+
+    .content-caracteristicas-fotos{
+        margin-top:0px;
+    }
     
+}
+
+
+@media (max-width:700px){
+    
+.content-caracteristicas-item h4{
+    font-size:15px;
+}
 }
