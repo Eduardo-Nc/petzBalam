@@ -55,7 +55,7 @@ const Caracteristicas = () => {
             </div>
         </section>
 
-        <section style={{width: '100vw'}}>
+        <section id="opciones-de-pago" style={{width: '100vw'}}>
                 <img style={{width: '100vw'}} src={img04} alt="Servicios" />
         </section>
         </Fragment>

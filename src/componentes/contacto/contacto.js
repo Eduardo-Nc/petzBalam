@@ -15,6 +15,8 @@ const Contacto = () => {
         setAbrir(false)
     }
 
+    
+
     return (
         <section id="contacto">
             <form className="form-contacto">
