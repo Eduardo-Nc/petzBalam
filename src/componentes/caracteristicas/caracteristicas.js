@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import './caracteristicas.css';
 import logo from '../../imagenes/logo.png';
 import dinero from '../../imagenes/dinero.png';
@@ -8,10 +8,12 @@ import parque from '../../imagenes/parque.png';
 import binoculares from '../../imagenes/binoculares.png';
 import chichen from '../../imagenes/chichen.png';
 
-
+import img04 from '../../imagenes/04.svg';
 
 const Caracteristicas = () => {
     return (
+
+    <Fragment>
         <section id="caracteristicas">
             <div className="content-caracteristicas-texto">
                 <h1>Características</h1>
@@ -52,6 +54,11 @@ const Caracteristicas = () => {
                 </div>
             </div>
         </section>
+
+        <section style={{width: '100vw'}}>
+                <img style={{width: '100vw'}} src={img04} alt="Servicios" />
+        </section>
+        </Fragment>
     )
 }
 
