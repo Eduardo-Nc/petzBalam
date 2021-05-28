@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 
 .main-content-header {
-    width: 98.9vw;
+    width: 100vw;
     height: 15vh;
     display: flex;
     flex-flow: row nowrap;
@@ -100,6 +100,13 @@
 .content-social-media i:hover {
     color: white;
     cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+    .main-content-header {
+        width: 98.5vw;
+    }
+    
 }
 
 

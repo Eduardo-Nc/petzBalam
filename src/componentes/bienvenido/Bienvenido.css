@@ -2,7 +2,7 @@
 
 
 .main-content-bienvenido{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-flow: row nowrap;
@@ -10,6 +10,10 @@
     align-items: center;
     background-image: url(../../imagenes/laguna.jpg);
     padding:80px;
+    margin-top: -7px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .content-logo-nosotros{

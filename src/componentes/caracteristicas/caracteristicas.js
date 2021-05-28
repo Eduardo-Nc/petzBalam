@@ -19,7 +19,7 @@ const Caracteristicas = () => {
                 <h1>Características</h1>
                 <img src={logo} alt="Logo" />
                 <p>Hacienda PetzBalam Country Land</p>
-                <h3>¡Conocenos y enamorate!</h3>
+                <h3>¡Conócenos y enamórate!</h3>
             </div>
 
             <div className="content-caracteristicas-fotos">
