@@ -22,7 +22,7 @@
     align-items: center;
 }
 
-.form-contacto input {
+.form-contacto input, textarea {
     width: 300px;
     background: #1b3620d3;
     padding: 10px;

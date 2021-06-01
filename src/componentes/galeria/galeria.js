@@ -26,7 +26,7 @@ const Galeria = () => {
                     height="700"
                 >
                     {({ ref, open }) => (
-                        <img ref={ref} onClick={open} src={petz1} />
+                        <img ref={ref} onClick={open} alt="Galeria" src={petz1} />
                     )}
                 </Item>
                 </div>
@@ -39,7 +39,7 @@ const Galeria = () => {
                     height="700"
                 >
                     {({ ref, open }) => (
-                        <img ref={ref} onClick={open} src={petz2} />
+                        <img ref={ref} onClick={open} alt="Galeria" src={petz2} />
                     )}
                 </Item>
                 </div>
@@ -52,7 +52,7 @@ const Galeria = () => {
                     height="700"
                 >
                     {({ ref, open }) => (
-                        <img ref={ref} onClick={open} src={petz3} />
+                        <img ref={ref} onClick={open} alt="Galeria" src={petz3} />
                     )}
                 </Item>
                 </div>
@@ -65,7 +65,7 @@ const Galeria = () => {
                     height="700"
                 >
                     {({ ref, open }) => (
-                        <img ref={ref} onClick={open} src={petz4} />
+                        <img ref={ref} onClick={open} alt="Galeria" src={petz4} />
                     )}
                 </Item>
                 </div>
@@ -78,7 +78,7 @@ const Galeria = () => {
                     height="700"
                 >
                     {({ ref, open }) => (
-                        <img ref={ref} onClick={open} src={petz5} />
+                        <img ref={ref} onClick={open} alt="Galeria" src={petz5} />
                     )}
                 </Item>
                 </div>
@@ -91,7 +91,7 @@ const Galeria = () => {
                     height="700"
                 >
                     {({ ref, open }) => (
-                        <img ref={ref} onClick={open} src={petz6} />
+                        <img ref={ref} onClick={open} alt="Galeria" src={petz6} />
                     )}
                 </Item>
                 </div>

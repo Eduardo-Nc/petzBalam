@@ -1,6 +1,5 @@
 import React from 'react';
 import './porqueYucatan.css';
-import merida from '../../imagenes/merida.png';
 
 
 const porqueYucatan = () => {
