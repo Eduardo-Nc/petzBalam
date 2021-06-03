@@ -81,9 +81,13 @@
 @media (max-width:960px){
     .main-content-bienvenido{
         flex-flow: column nowrap;
-        background-image: url(../../imagenes/laguna-movil.jpg);
+        background-image: url(../../imagenes/laguna-movil1.jpg);
        width:100vw;
+       height:1000px;
+       background-repeat: no-repeat;
+       background-size: cover;
        padding:40px;
+       margin-top: 0px;
     }
 
     .content-logo-nosotros{
@@ -111,7 +115,15 @@
         font-size:20px;
         text-align: justify;
     }
+
     
+    .content-description-nosotros a{
+        padding:13px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size:20px;
+        
+    }
 
 
 }
