@@ -27,7 +27,15 @@
         right: 40px;
         z-index: 20;
         background:#00bb2d;
+
+        animation: float 4s ease-out infinite;
     }
+
+    @keyframes float {
+        50% {
+           transform: translate(0, 30px);
+        }
+      }
 
     .content-whatsapp:hover{
         cursor: pointer;

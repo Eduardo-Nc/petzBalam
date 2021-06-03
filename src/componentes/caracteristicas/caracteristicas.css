@@ -84,6 +84,9 @@
     text-align:center;
 }
 
+
+
+
 @media (max-width: 960px) {
     #caracteristicas{
         flex-flow: column nowrap;
@@ -110,4 +113,11 @@
     font-size:15px;
 }
 
+}
+
+@media (max-width:450px){
+    #opciones-de-pago img{
+        object-fit: cover;
+        height: 40vh;
+    }  
 }
