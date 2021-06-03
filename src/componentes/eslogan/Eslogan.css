@@ -24,7 +24,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column nowrap;
     width: 50%;
+}
+
+.text-eslogan > h3 {
+    margin-top:10px;
+   font-size:18px;
 }
 
 .content-eslogan img {

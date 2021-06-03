@@ -11,7 +11,7 @@ const Slider = () => {
                 <Carousel.Item interval={1000}>
                     <img
                         className="d-block w-100"
-                        src={Foto1}
+                        src={Foto4}
                         alt="First slide"
                     />
                 </Carousel.Item>
@@ -19,7 +19,7 @@ const Slider = () => {
                 <Carousel.Item interval={600}>
                     <img
                         className="d-block w-100"
-                        src={Foto4}
+                        src={Foto1}
                         alt="First slide"
                     />
                 </Carousel.Item>

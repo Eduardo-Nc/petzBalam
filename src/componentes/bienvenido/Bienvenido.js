@@ -16,7 +16,10 @@ const Bienvenido = () => {
                 <div className="content-contact-bienvenido" style={{textAlign: 'center'}}>
                     {/* <a href="tel:9992474647" ><h2>Llámanos: 999-247-4647</h2></a> */}
                     <p>Somos un desarrollo inmobiliario perfecto para las personas que buscan la mezcla ideal entre la naturaleza y la seguridad de su inversión. </p>
-                    <p>Podrás disfrutar y conocer los lugares más increíbles de Yucatán. </p>
+                    <p>Con una plusvalía creciente y una fuerte experiencia única que sólo Yucatán puede brindar. Podrás disfrutar y conocer los lugares más increíbles de Yucatán por su ubicación estratégica.</p>
+                    <p style={{marginBottom:'30px'}}>Podrás disfrutar y conocer los lugares más increíbles de Yucatán. </p>
+
+                    <a style={{textDecoration:'none'}} href="#contacto" title="Contacto">Contacta con un asesor</a>
                 </div>
 
             </div>
