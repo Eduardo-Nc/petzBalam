@@ -117,3 +117,13 @@
         width: 100vw;
     }
 }
+
+@media (max-width:450px) {
+    .contacto-footer{
+        text-align: center;
+    }
+
+    .contacto-footer > label{
+        font-weight: bold;
+    }
+}

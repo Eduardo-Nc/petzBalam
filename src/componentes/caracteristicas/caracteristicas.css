@@ -17,7 +17,8 @@
     flex-flow: column nowrap;
     justify-content:center;
     align-items: center;
-    background: #0e1f12;
+    object-fit: contain;
+    background-image: url('../../imagenes/fondocarac.jpeg');
 }
 
 .content-caracteristicas-texto h1, p, h3{
@@ -84,7 +85,13 @@
     text-align:center;
 }
 
+#opciones-de-pago{
+    width: 100%;
+}
 
+#opciones-de-pago img{
+    width: 100%;
+}
 
 
 @media (max-width: 960px) {
@@ -115,9 +122,16 @@
 
 }
 
+
 @media (max-width:450px){
     #opciones-de-pago img{
-        object-fit: cover;
-        height: 40vh;
+        object-fit: contain;
+        height: auto;
     }  
+
+   .content-logo-nosotros > img{
+      width: 100px;
+      margin-top:0px;
+   }
+    
 }

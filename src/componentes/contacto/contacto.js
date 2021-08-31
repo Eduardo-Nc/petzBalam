@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import './contacto.css';
-import ReCAPTCHA from "react-google-recaptcha";
+// import ReCAPTCHA from "react-google-recaptcha";
 import logo from '../../imagenes/logo.png';
 import axios from 'axios';
 import Swal from 'sweetalert2';
 
 const Contacto = () => {
 
-    function onChange(value) {
-        console.log("Captcha value:", value);
-    }
+    // function onChange(value) {
+    //     console.log("Captcha value:", value);
+    // }
 
     const [abrir, setAbrir] = useState(false);
 
@@ -71,7 +71,7 @@ const Contacto = () => {
                 confirmButtonText: `Aceptar`,
             })
             return
-        }else if (!datos.mensaje) {
+        } else if (!datos.mensaje) {
             Swal.fire({
                 customClass: {
                     title: 'swalTitleColor'
@@ -123,11 +123,11 @@ const Contacto = () => {
                 <input type="email" placeholder="Correo" onChange={handleInputChange} name="correo" />
                 <input type="text" placeholder="Teléfono" onChange={handleInputChange} name="numero" />
                 <textarea name="textarea" placeholder="Mensaje" onChange={handleInputChange} rows="5" style={{ marginBottom: '7px' }} name="mensaje" />
-                <ReCAPTCHA className="captcha"
+                {/* <ReCAPTCHA className="captcha"
                     sitekey="6LfA8FAaAAAAADRjsWGIcs9jCtBbyWz2ta7nXBkq"
                     onChange={onChange}
                     size="normal"
-                />
+                /> */}
                 <input type="submit" value="Enviar" />
             </form>
 
@@ -142,6 +142,9 @@ const Contacto = () => {
 
                     <label>Correo:</label>
                     <h4><i className="fas fa-envelope"></i>  <a href="mailto:inmobiliaria.koolel.kaab@gmail.com">inmobiliaria.koolel.kaab@gmail.com </a> </h4>
+
+                    <label>Dirección:</label>
+                    <h4><i className="fas fa-map-marker-alt"></i>  <a target="_blank" href="https://www.google.com/maps/dir//grupo+citra/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x8f5670cf18011f9f:0xc501d23123471d2f?sa=X&ved=2ahUKEwi1kaKU_J3yAhXuSTABHcmdCbMQ9RcwC3oECEEQBQ"> Calle 33 A x 24 No. 373, Polígono 108, 97143 Mérida, Yuc.</a> </h4>
                 </div>
 
                 <div style={{ marginTop: '10px' }} className="content-social-media-movil">

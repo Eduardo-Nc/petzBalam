@@ -2,7 +2,7 @@ import React from 'react';
 import './ubicacion.css';
 import InnerImageZoom from 'react-inner-image-zoom';
 
-import ubicacion from '../../imagenes/02.svg';
+import ubicacion from '../../imagenes/mapa.png';
 
 const Ubicacion = () => {
     return (

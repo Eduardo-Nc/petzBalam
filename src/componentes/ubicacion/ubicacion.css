@@ -9,6 +9,11 @@
    width: 100vw;
 }
 
+#ubicacion p{
+  position: absolute;
+  color:white;
+}
+
 #ubicacion a{
     display: flex;
     justify-content: center;

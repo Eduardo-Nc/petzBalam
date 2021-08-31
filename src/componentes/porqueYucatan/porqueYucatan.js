@@ -7,11 +7,9 @@ const porqueYucatan = () => {
         <section className="content-porque">
 
 
-            <h1 style={{ textAlign: 'center' }}>¿Por qué invertir en Yucatán?</h1>
+            <h1 style={{ textAlign: 'center' }}>Yucatán</h1>
             <p>
-                Yucatán se ha posicionado como uno de los estados más prometedores en cuanto
-                a rentabilidad inmobiliaria y calidad de vida en todo México. Debido a factores
-                que atraen mayores inversiones nacionales e internacionales.
+                Es un estado con gran crecimiento económico, demográfico e inmobiliario, considerado por su seguridad y alta calidad de vida como uno de los mejores lugares para vivir, catalogado con el Estado más seguro para vivir de todo el país y el segundo estado más seguro del continente Americano, por lo que representa una oportunidad para crear un patrimonio y conseguir el éxito financiero.
             </p>
 
         </section>

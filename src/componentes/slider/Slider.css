@@ -9,14 +9,21 @@
     object-fit: cover;
 }
 
+
+
+
 @media (max-width: 960px){
     .Slider-content{
         margin-top: 11vh;
     }
 
+   
+
 
     .carousel-item > img{
         height:50vh;
     }
+
+   
 
 }

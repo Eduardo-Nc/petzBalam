@@ -11,15 +11,17 @@
     position: absolute;
     top: 0;
     z-index: 10;
+
 }
 
 .content-header {
-    width: 97vw;
+    width: 95vw;
     height: 14vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+   
 }
 
 .content-header img {
@@ -72,8 +74,10 @@
 
 
 .content-social-media{
+    flex-flow: row nowrap !important;
+    width: 150px;
     display: flex;
-    flex-flow: row column;
+    justify-content:center;
 }
 
 
@@ -87,8 +91,8 @@
     border-radius:50%;
     justify-content: center;
     align-items: center;
-    margin-left: 13px;
-    margin-left: 13px;
+    margin-left: 10px;
+    margin-left: 10px;
 }
 
 
@@ -104,7 +108,7 @@
 
 @media (max-width: 1400px) {
     .main-content-header {
-        width: 98.5vw;
+        width: 99vw;
     }
     
 }
