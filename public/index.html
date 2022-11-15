@@ -1,58 +1,129 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, user-scalable=no, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Somos un desarrollo inmobiliario perfecto para las personas que buscan la mezcla ideal entre la naturaleza y la seguridad de su inversión."
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, user-scalable=no, shrink-to-fit=no" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description"
-    content="Somos un desarrollo inmobiliario perfecto para las personas que buscan la mezcla ideal entre la naturaleza y la seguridad de su inversión." />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
- <!-- Global site tag (gtag.js) - Google Ads: 356431115 --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-356431115"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-356431115'); </script> 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-  <meta name="google-site-verification" content="lmLwohpytERBhFpGkRHskaajPQpqo5LqpwhIy-AtoQE" />
-  <title>Hacienda San Diego PetzBalam Country Land</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Global site tag (gtag.js) - Google Ads: 356431115 -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-356431115"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "AW-356431115");
+    </script>
+    <script>
+      window.addEventListener("DOMContentLoaded", function () {
+        // click boton whatsapp
+        document
+          .querySelector("a[href*='wa.me']")
+          .addEventListener("click", function () {
+            console.log("click wa.me");
+            gtag("event", "conversion", {
+              send_to: "AW-356431115/K3vKCM7BieICEIvq-qkB",
+            });
+          });
+      });
+    </script>
 
-  <!-- MS, fb & Whatsapp -->
+    <script>
+      window.addEventListener("DOMContentLoaded", function () {
+        // form submit
+        document
+          .querySelector("form.form-contacto>input[value='Enviar']")
+          .addEventListener("click", function () {
+            setTimeout(function () {
+              if (document.querySelector("div.swal2-html-container")) {
+                console.log("message ok");
+                gtag("event", "conversion", {
+                  send_to: "AW-356431115/XyEyCIuo4-ECEIvq-qkB",
+                });
+              }
+            }, 1500);
+          });
+      });
+    </script>
+    <script
+      src="https://kit.fontawesome.com/712be89a3d.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta
+      name="google-site-verification"
+      content="lmLwohpytERBhFpGkRHskaajPQpqo5LqpwhIy-AtoQE"
+    />
+    <title>Hacienda San Diego PetzBalam Country Land</title>
 
-  <!-- MS Tile - for Microsoft apps-->
-  <meta name="msapplication-TileImage"
-    content="https://inmobiliaria-koolel-kaab.com.mx/static/media/apartamento3.73344c22.jpg">
+    <!-- MS, fb & Whatsapp -->
 
-  <!-- fb & Whatsapp -->
+    <!-- MS Tile - for Microsoft apps-->
+    <meta
+      name="msapplication-TileImage"
+      content="https://inmobiliaria-koolel-kaab.com.mx/static/media/apartamento3.73344c22.jpg"
+    />
 
-  <!-- Site Name, Title, and Description to be displayed -->
-  <meta property="og:site_name" content="Hacienda San Diego PetzBalam Country Land">
-  <meta property="og:title" content="Hacienda San Diego PetzBalam Country Land - Desarrollo inmobiliario en Mérida, Yucatán">
-  <meta property="og:description"
-    content="Somos un desarrollo inmobiliario perfecto para las personas que buscan la mezcla ideal entre la naturaleza y la seguridad de su inversión.">
+    <!-- fb & Whatsapp -->
 
-  <!-- Image to display -->
-  <!-- Replace   «example.com/image01.jpg» with your own -->
-  <meta property="og:image"
-    content="https://mx52.hostgator.mx:2083/cpsess2281144145/frontend/paper_lantern/filemanager/showfile.html?file=petz5.jpg&fileop=&dir=%2Fhome2%2Fsandieg3%2Fpublic_html&dirop=&charset=&file_charset=&baseurl=&basedir=">
+    <!-- Site Name, Title, and Description to be displayed -->
+    <meta
+      property="og:site_name"
+      content="Hacienda San Diego PetzBalam Country Land"
+    />
+    <meta
+      property="og:title"
+      content="Hacienda San Diego PetzBalam Country Land - Desarrollo inmobiliario en Mérida, Yucatán"
+    />
+    <meta
+      property="og:description"
+      content="Somos un desarrollo inmobiliario perfecto para las personas que buscan la mezcla ideal entre la naturaleza y la seguridad de su inversión."
+    />
 
-  <!-- No need to change anything here -->
-  <meta property="og:type" content="website" />
-  <meta property="og:image:type" content="image/jpeg">
+    <!-- Image to display -->
+    <!-- Replace   «example.com/image01.jpg» with your own -->
+    <meta
+      property="og:image"
+      content="https://mx52.hostgator.mx:2083/cpsess2281144145/frontend/paper_lantern/filemanager/showfile.html?file=petz5.jpg&fileop=&dir=%2Fhome2%2Fsandieg3%2Fpublic_html&dirop=&charset=&file_charset=&baseurl=&basedir="
+    />
 
-  <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
-  <meta property="og:image:width" content="300">
-  <meta property="og:image:height" content="300">
+    <!-- No need to change anything here -->
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/jpeg" />
 
-  <!-- Website to visit when clicked in fb or WhatsApp-->
-  <meta property="og:url" content="https://sandiegopetzbalam.com.mx/">
-</head>
+    <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
 
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-</body>
+    <!-- Website to visit when clicked in fb or WhatsApp-->
+    <meta property="og:url" content="https://sandiegopetzbalam.com.mx/" />
+  </head>
 
-
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>

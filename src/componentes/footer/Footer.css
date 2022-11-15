@@ -1,61 +1,88 @@
-.main-content-footer{
-    width: 100vw;
-    height: 100px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    padding:10px;
-    background: #0e1f12;
+.main-content-footer {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #0e1f12;
 }
 
-    .main-content-footer h1{
-        font-size:20px;
-        text-align:center;
-        color: white;
-    }
+.main-content-footer h1 {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
 
-    .content-whatsapp{
-        display: flex;
-        justify-content: center;
-        align-items:center;
-        width: 63px;
-        height: 63px;
-        border-radius: 50%;
-        position: absolute;
-        bottom: 40px;
-        right: 40px;
-        z-index: 20;
-        background:#00bb2d;
+.content-whatsapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  z-index: 20;
+  background: #00bb2d;
+  animation: float 4s ease-out infinite;
+}
 
-        animation: float 4s ease-out infinite;
-    }
+.content-chatbot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  z-index: 20;
+  /* background: #00bb2d; */
+  animation: float 4s ease-out infinite;
+}
 
-    @keyframes float {
-        50% {
-           transform: translate(0, 30px);
-        }
-      }
+@keyframes float {
+  50% {
+    transform: translate(0, 30px);
+  }
+}
 
-    .content-whatsapp:hover{
-        cursor: pointer;
-        background:#00bb2cea;
-    }
+.content-whatsapp:hover {
+  cursor: pointer;
+  background: #00bb2cea;
+}
 
-    .content-whatsapp img{
-        width: 36px;
-        transition: 0.1s;
-    }
+.content-whatsapp img {
+  width: 32px;
+  transition: 0.1s;
+}
 
-    .content-whatsapp img:hover{
-        width: 39px;
-        transition: 0.2s;
-    }
+.content-whatsapp img:hover {
+  width: 39px;
+  transition: 0.2s;
+}
 
+@media (max-width: 960px) {
+  .main-content-footer h1 {
+    padding-top: 10px;
+    font-size: 15px;
+  }
+}
 
-@media (max-width:960px){
-    .main-content-footer h1{
-        padding-top:10px;
-        font-size:15px;
-    }
+@media (max-width: 568px) {
+  .content-whatsapp {
+    right: 20px;
+    width: 64px;
+    height: 64px;
+  }
+
+  .content-chatbot {
+    right: 20px;
+    width: 70px;
+    height: 70px;
+  }
 }

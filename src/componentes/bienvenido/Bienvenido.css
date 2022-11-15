@@ -1,70 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap");
 
-
-.main-content-bienvenido{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../../imagenes/laguna2.jpg);
-    padding:80px;
-    margin-top: -7px;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+.main-content-bienvenido {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../imagenes/laguna2.jpg);
+  padding: 80px;
+  margin-top: -7px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.content-logo-nosotros{
-    width: 40%;
+.content-logo-nosotros {
+  width: 40%;
 }
 
-.content-logo-nosotros img{
-    width: 300px;
+.content-logo-nosotros img {
+  width: 300px;
 }
 
-.content-description-nosotros{
- 
-    width: 60%;
+.content-description-nosotros {
+  width: 60%;
 }
 
-.content-description-nosotros h3{
-    font-size:32px;
-    font-weight:bold;
-    color:white;
-    text-align: center;
-    margin-bottom: 10px;
+.content-description-nosotros h3 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-.content-description-nosotros h1{
-    font-family: 'Asap', sans-serif;
-    text-align:center;
-    color:white;
+.content-description-nosotros h1 {
+  font-family: "Asap", sans-serif;
+  text-align: center;
+  color: white;
 }
 
-.content-description-nosotros a{
-    padding:10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    background:rgb(82, 64, 71);
-    color:white !important;
-    font-size:18px;
-    border-radius:20px;
-    
+.content-description-nosotros a {
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: rgb(82, 64, 71);
+  color: white !important;
+  font-size: 18px;
+  border-radius: 20px;
 }
 
-.content-description-nosotros a:hover{
-    
-    background:rgb(124, 96, 107);
-    
+.content-description-nosotros a:hover {
+  background: rgb(124, 96, 107);
 }
 
-
-.content-contact-bienvenido p{
-    font-size:20px;
-    text-align: justify;
-    color:white;
+.content-contact-bienvenido p {
+  font-size: 20px;
+  text-align: justify;
+  color: white;
 }
 
 /* .content-contact-bienvenido a{
@@ -76,56 +69,248 @@
     font-size:20px;
 } */
 
+.cont-ubicacion-unica-bienvenido {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
 
+.cont-ubicacion-1 {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  /* background-color: rgb(194, 10, 105); */
+}
 
-  
+.content-item-text-b {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
 
-@media (max-width:960px){
-    .main-content-bienvenido{
-        flex-flow: column nowrap;
-        background-image: url(../../imagenes/laguna-movil1.jpg);
-       width:100vw;
-       height:1000px;
-       background-repeat: no-repeat;
-       background-size: cover;
-       padding:40px;
-       margin-top: 0px;
-    }
+.content-item-text-b > h1 {
+  color: #dda749 !important;
+  /* font-weight: bold; */
+  font-size: 58px;
+  text-transform: uppercase !important;
+  font-family: "Arapey", serif !important;
+}
 
-    .content-logo-nosotros{
-        width: 100vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .content-logo-nosotros img{
-        width: 250px;
-        margin-bottom:20px;
-    }
-    
-    .content-description-nosotros{
-        width: 100vw;
-        display: flex;
-        flex-flow:column nowrap;
-        justify-content:center;
-        align-items: center;
-    }
+.cont-ubicacion-1-divisor {
+  margin-right: 18%;
+  width: 45%;
+  height: 3.5px;
+  margin-top: -10px;
+  background: #dda749;
+}
 
-    .content-contact-bienvenido p{
-        width: 90vw;
-        font-size:20px;
-        text-align: justify;
-    }
+.cont-ubicacion-2 {
+  padding-top: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: hidden;
+  /* background-color: blue; */
+}
 
-    
-    .content-description-nosotros a{
-        padding:13px;
-        padding-left: 30px;
-        padding-right: 30px;
-        font-size:20px;
-        
-    }
+.cont-ubicacion-img-2 {
+  padding-left: 40px;
+  width: 60%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.cont-ubicacion-img-2 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
+.cont-ubicacion-p-2 {
+  width: 40%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.cont-ubicacion-p-2 > p {
+  color: black;
+  text-align: justify;
+  font-size: 26px;
+  font-family: "Arapey", serif !important;
+}
+
+@media (max-width: 1158px) {
+  .content-logo-nosotros {
+    width: 35%;
+  }
+
+  .content-logo-nosotros img {
+    width: 250px;
+  }
+
+  .content-description-nosotros {
+    width: 65%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .content-logo-nosotros {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-logo-nosotros img {
+    width: 210px;
+  }
+
+  .content-description-nosotros {
+    width: 80%;
+  }
+}
+
+@media (max-width: 960px) {
+  .main-content-bienvenido {
+    flex-flow: column nowrap;
+    background-image: url(../../imagenes/laguna-movil1.jpg);
+    width: 100vw;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    margin-top: 0px;
+  }
+
+  .content-logo-nosotros {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-logo-nosotros img {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+
+  .content-description-nosotros {
+    width: 100vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-contact-bienvenido p {
+    width: 90vw;
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .content-description-nosotros a {
+    padding: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+  }
+
+  .cont-ubicacion-unica-bienvenido {
+    width: 100%;
+    height: 850px;
+    /* background-color: red; */
+  }
+
+  .content-item-text-b > h1 {
+    font-size: 45px;
+  }
+
+  .cont-ubicacion-2 {
+    flex-direction: column;
+    /* background-color: blue; */
+    height: 800px;
+  }
+
+  .cont-ubicacion-img-2 {
+    width: 100%;
+    height: 550px;
+    padding-left: 40px;
+    padding-right: 40px;
+    /* background-color: yellow; */
+  }
+
+  .cont-ubicacion-p-2 {
+    width: 100%;
+    height: 250px;
+  }
+
+  .cont-ubicacion-p-2 > p {
+    color: black;
+    text-align: justify;
+    font-size: 23px;
+    font-family: "Arapey", serif !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .content-item-text-b > h1 {
+    font-size: 45px;
+  }
+
+  .cont-ubicacion-img-2 {
+    width: 100%;
+    height: 550px;
+    padding-left: 0px;
+    padding-right: 0px;
+    /* background-color: yellow; */
+  }
+}
+
+@media (max-width: 500px) {
+  .cont-ubicacion-p-2 {
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .content-item-text-b > h1 {
+    text-align: center;
+  }
+
+  .cont-ubicacion-1 {
+    align-items: center;
+  }
+
+  .cont-ubicacion-1-divisor {
+    margin-right: 0%;
+    width: 80%;
+    height: 3.5px;
+  }
+  .cont-ubicacion-p-2 > p {
+    font-size: 23px;
+    font-family: "Arapey", serif !important;
+  }
 }

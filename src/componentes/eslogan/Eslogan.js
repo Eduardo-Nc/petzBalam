@@ -13,10 +13,12 @@ const Eslogan = () => {
                 <div className="logo-eslogan">
                     <ReactPlayer
 
-                        url="https://www.youtube.com/watch?v=FxG4jFuTaIc&t=2s"
+                        url="https://www.youtube.com/watch?v=X0Fc3MSJJBg"
                         width="100vw"
-                        controls
-                        playing
+                        playing={true}
+                        muted={true}
+                        loop={true}
+                        controls={false}
                         config={{
                             youtube: {
                                 playerVars: { showinfo: 1 }
@@ -28,19 +30,19 @@ const Eslogan = () => {
 
                 <div className="text-eslogan">
 
-                    <h1>Una inversión que te conecta con tus deseos</h1>
+                    <h1 >Una inversión que te conecta con tus deseos</h1>
 
-                    <h3>Bienvenido a Hacienda San Diego Petz Balam  - Country Land, la mejor opción para invertir en Yucatán, éste es un desarrollo ubicado estratégicamente al Norte de Yucatán, cuenta con una Hacienda, remodelada y restructurada.
+                    <h3>Somos un desarrollo inmobiliario perfecto para las personas que buscan la mezcla ideal entre la naturaleza y la seguridad de su inversión.
                         <br></br>
-                        Déjate enamorar por todos los beneficios que San Diego Petz Balam tiene para ti y comienza a pensar en el futuro ideal, donde tendrás un espacio para escapar de la monotonía y conectar con la naturaleza.
+                        Con una plusvalía creciente y una fuerte experiencia única que sólo Yucatán puede brindar.
                         <br></br>
-                        Una inversión que te garantiza calidad de vida y seguridad financiera, por la plusvalía que  solamente el estado de Yucatán puede ofrecer. Garantizando un rendimiento anual. Gracias a proyectos en construcción, a la seguridad, a la cultura milenaria y al ser un destino turístico mundial.
+                        Podrás disfrutar y conocer los lugares más increíbles de Yucatán por su ubicación estratégica.
                     </h3>
                 </div>
 
 
             </div>
-        </Fragment>
+        </Fragment >
 
 
 

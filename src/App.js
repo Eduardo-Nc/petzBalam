@@ -11,6 +11,9 @@ import MasterPlan from './componentes/masterPlan/masterPlan';
 import Galeria from './componentes/galeria/galeria';
 import Contacto from './componentes/contacto/contacto';
 import Footer from './componentes/footer/Footer';
+import Silla from './componentes/silla/Silla';
+import BotonChatbot from './componentes/botonChatbot/botonChatbot';
+
 
 const App = () => {
   return (
@@ -27,15 +30,21 @@ const App = () => {
 
       <Ubicacion />
 
+      <Silla />
+
       <Caracteristicas />
 
       <MasterPlan />
+
+
 
       <Galeria />
 
       <Contacto />
 
       <Footer />
+
+      {/* <BotonChatbot /> */}
 
     </div>
   )

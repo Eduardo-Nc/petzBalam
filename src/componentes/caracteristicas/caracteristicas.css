@@ -1,137 +1,159 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
-
-#caracteristicas{
-    width: 100vw;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content:center;
-    align-items: center;
+#caracteristicas {
+  width: 100vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.content-caracteristicas-texto{
-    width: 40%;
-    height:400px;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content:center;
-    align-items: center;
-    object-fit: contain;
-    background-image: url('../../imagenes/fondocarac.jpeg');
+#caracteristicas > div {
+  width: 100vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
-.content-caracteristicas-texto h1, p, h3{
-    color:white;
+#caracteristicas > div > img {
+  width: 100vw;
+  object-fit: contain;
 }
 
-.content-caracteristicas-texto h1{
-    margin-bottom: 15px;
-    font-family: 'Asap', sans-serif;
-    text-transform: capitalize;
+.content-caracteristicas-texto {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  background-image: url("../../imagenes/fondocarac.jpeg");
 }
 
-.content-caracteristicas-texto p{
-    margin-top: 15px;
-    font-family: 'Montserrat', sans-serif;
-    font-size:21px;
-    text-transform: capitalize;
+.content-caracteristicas-texto h1,
+p,
+h3 {
+  color: white;
 }
 
-.content-caracteristicas-texto h3{
-    margin-bottom: 15px;
-    font-family: 'Asap', sans-serif;
+.content-caracteristicas-texto h1 {
+  margin-bottom: 15px;
+  font-family: "Asap", sans-serif;
+  text-transform: capitalize;
 }
 
-.content-caracteristicas-texto img{
-    width: 150px;
+.content-caracteristicas-texto p {
+  margin-top: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  text-transform: capitalize;
 }
 
-.content-caracteristicas-fotos{
-    width: 60%;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    background: rgb(235, 233, 233);
+.content-caracteristicas-texto h3 {
+  margin-bottom: 15px;
+  font-family: "Asap", sans-serif;
 }
 
-.content-caracteristicas-fotos{
-    display:flex;
-    flex-flow: row wrap;
-    justify-content:center;
-    align-items: center;
-    padding:15px;
-    margin-top: 10px;
+.content-caracteristicas-texto img {
+  width: 150px;
 }
 
-.content-caracteristicas-item{
-    width: 30%;
-    height:160px;
-    display:flex;
-    flex-flow: column nowrap;
-    justify-content:center;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.content-caracteristicas-fotos {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(235, 233, 233);
 }
 
-.content-caracteristicas-item img{
-    width: 60px;
+.content-caracteristicas-fotos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-top: 10px;
 }
 
-.content-caracteristicas-item h4{
-    margin-top:25px;
-    font-size:17px;
-    text-align:center;
+.content-caracteristicas-item {
+  width: 30%;
+  height: 160px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-#opciones-de-pago{
-    width: 100%;
+.content-caracteristicas-item img {
+  width: 60px;
 }
 
-#opciones-de-pago img{
-    width: 100%;
+.content-caracteristicas-item h4 {
+  margin-top: 25px;
+  font-size: 17px;
+  text-align: center;
 }
 
+#opciones-de-pago {
+  width: 100%;
+}
+
+#opciones-de-pago img {
+  width: 100%;
+}
+
+.cont-testimonios {
+  width: 100%;
+}
+
+.cont-testimonios > div {
+  width: 100%;
+  overflow: hidden;
+}
+
+.cont-testimonios > div > img {
+  width: 100%;
+  object-fit: contain;
+}
 
 @media (max-width: 960px) {
-    #caracteristicas{
-        flex-flow: column nowrap;
-    }
+  #caracteristicas {
+    flex-flow: column nowrap;
+  }
 
-    .content-caracteristicas-texto{
-        width: 100%;
-    }
+  .content-caracteristicas-texto {
+    width: 100%;
+  }
 
-    .content-caracteristicas-fotos{
-        width: 100%;
-    }
+  .content-caracteristicas-fotos {
+    width: 100%;
+  }
 
-    .content-caracteristicas-fotos{
-        margin-top:0px;
-    }
-    
+  .content-caracteristicas-fotos {
+    margin-top: 0px;
+  }
 }
 
-
-@media (max-width:700px){
-    
-.content-caracteristicas-item h4{
-    font-size:15px;
+@media (max-width: 700px) {
+  .content-caracteristicas-item h4 {
+    font-size: 15px;
+  }
 }
 
-}
+@media (max-width: 450px) {
+  #opciones-de-pago img {
+    object-fit: contain;
+    height: auto;
+  }
 
-
-@media (max-width:450px){
-    #opciones-de-pago img{
-        object-fit: contain;
-        height: auto;
-    }  
-
-   .content-logo-nosotros > img{
-      width: 100px;
-      margin-top:0px;
-   }
-    
+  .content-logo-nosotros > img {
+    width: 100px;
+    margin-top: 0px;
+  }
 }

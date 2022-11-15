@@ -52,15 +52,15 @@ const Header = () => {
                                 <li className="animate__animated animate__flipInY" ><a onClick={() => cerrar()} href="#nosotros">Sobre nosotros</a></li>
                                 <li className="animate__animated animate__flipInY" ><a onClick={() => cerrar()} href="#ubicacion">Ubicación</a></li>
                                 <li className="animate__animated animate__flipInY" ><a onClick={() => cerrar()} href="#caracteristicas">Características</a></li>
-                                <li className="animate__animated animate__flipInY" ><a onClick={() => cerrar()} href="#opciones-de-pago">Opciones de pago</a></li> 
-                                <li className="animate__animated animate__flipInY" ><a onClick={() => cerrar()} href="#master-plan">Master Plan</a></li>
+                                <li className="animate__animated animate__flipInY" ><a onClick={() => cerrar()} href="#opciones-de-pago">Opciones de pago</a></li>
+                                {/* <li className="animate__animated animate__flipInY" ><a onClick={() => cerrar()} href="#master-plan">Master Plan</a></li> */}
                                 <li className="animate__animated animate__flipInY" ><a onClick={() => cerrar()} href="#galeria">Galería</a></li>
                                 <li className="animate__animated animate__flipInY" ><a onClick={() => cerrar()} href="#contacto">Contacto</a></li>
                             </ul>
 
                             <div className="content-social-media-movil">
                                 <div className="content-border-social-media-movil">
-                                    <a onClick={() => cerrar()} href="https://instagram.com/hda_sandiegopetzbalam?igshid=13w1oh04gixd2" target="_blank" rel="noreferrer" title="Instagram">
+                                    <a onClick={() => cerrar()} href="https://www.instagram.com/haciendasandiegopetzbalam/" target="_blank" rel="noreferrer" title="Instagram">
                                         <i className="fab fa-instagram animate__animated animate__fadeIn"></i>
 
                                     </a>
@@ -79,7 +79,7 @@ const Header = () => {
 
                     <div className="content-social-media">
                         <div className="content-border-social-media">
-                            <a onClick={() => cerrar()} href="https://instagram.com/hda_sandiegopetzbalam?igshid=13w1oh04gixd2" target="_blank" rel="noreferrer" title="Instagram">
+                            <a onClick={() => cerrar()} href="https://www.instagram.com/haciendasandiegopetzbalam/" target="_blank" rel="noreferrer" title="Instagram">
                                 <i className="fab fa-instagram animate__animated animate__fadeIn"></i>
                             </a>
                         </div>

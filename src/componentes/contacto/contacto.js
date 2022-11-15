@@ -118,52 +118,72 @@ const Contacto = () => {
 
     return (
         <section id="contacto">
-            <form onSubmit={enviarMensaje} className="form-contacto">
-                <input type="text" placeholder="Nombre" onChange={handleInputChange} name="nombre" />
-                <input type="email" placeholder="Correo" onChange={handleInputChange} name="correo" />
-                <input type="text" placeholder="Teléfono" onChange={handleInputChange} name="numero" />
-                <textarea name="textarea" placeholder="Mensaje" onChange={handleInputChange} rows="5" style={{ marginBottom: '7px' }} name="mensaje" />
-                {/* <ReCAPTCHA className="captcha"
-                    sitekey="6LfA8FAaAAAAADRjsWGIcs9jCtBbyWz2ta7nXBkq"
-                    onChange={onChange}
-                    size="normal"
-                /> */}
-                <input type="submit" value="Enviar" />
-            </form>
-
-            <div className="content-logo-contacto">
-                <img src={logo} alt="Logo" />
 
 
-                <div className="contacto-footer">
-                    <h3>Contacto</h3>
-                    <label>Teléfono:</label>
-                    <h4><i className="fas fa-phone-volume"></i> <a href="tel:9992474647">(999)2474647</a></h4>
-
-                    <label>Correo:</label>
-                    <h4><i className="fas fa-envelope"></i>  <a href="mailto:inmobiliaria.koolel.kaab@gmail.com">inmobiliaria.koolel.kaab@gmail.com </a> </h4>
-
-                    <label>Dirección:</label>
-                    <h4><i className="fas fa-map-marker-alt"></i>  <a target="_blank" href="https://www.google.com/maps/dir//grupo+citra/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x8f5670cf18011f9f:0xc501d23123471d2f?sa=X&ved=2ahUKEwi1kaKU_J3yAhXuSTABHcmdCbMQ9RcwC3oECEEQBQ"> Calle 33 A x 24 No. 373, Polígono 108, 97143 Mérida, Yuc.</a> </h4>
-                </div>
-
-                <div style={{ marginTop: '10px' }} className="content-social-media-movil">
-                    <div className="content-border-social-media-movil">
-                        <a onClick={() => cerrar()} href="https://instagram.com/hda_sandiegopetzbalam?igshid=13w1oh04gixd2" target="_blank" rel="noreferrer" title="Instagram">
-                            <i className="fab fa-instagram animate__animated animate__fadeIn"></i>
-
-                        </a>
-                    </div>
-
-                    <div className="content-border-social-media-movil">
-                        <a onClick={() => cerrar()} href="https://www.facebook.com/Desarrolloinmobiliariopetzbalam/" target="_blank" rel="noreferrer" title="Facebook">
-                            <i className="fab fa-facebook animate__animated animate__fadeIn"></i>
-                        </a>
-                    </div>
-
-                </div>
+            <div className="titulo-footer">
+                <h3>CONTACTO</h3>
+                <p>Ponte en contacto con nosotros</p>
             </div>
-        </section>
+
+            <div className="cont-telefonos-contacto">
+
+                <div className="cont-telefonos-contacto-2">
+
+                    <div className="cont-prin-oficina">
+                        <h4>Nuestra Oficina</h4>
+                        <div>
+                            <div className="logo-cont-oficina">
+                                <div>
+                                    <img src={logo} />
+                                </div>
+                            </div>
+                            <a href="tel:529841832326" style={{ textDecoration: 'none' }} className="cont-oficina-enter">
+                                <i style={{ marginTop: '4px' }} className="fas fa-phone-alt animate__animated animate__fadeIn"></i>
+                                {/* <p style={{ marginLeft: '10px' }} >(999)-247-647</p> */}
+                                <p style={{ marginLeft: '10px' }} >(984)-183-2326</p>
+                            </a>
+                            <a href="mailto:inmobiliaria.koolel.kaab@gmail.com" style={{ textDecoration: 'none' }} className="cont-oficina-enter">
+                                <i style={{ marginTop: '4px' }} className="fas fa-envelope animate__animated animate__fadeIn"></i>
+                                <p style={{ marginLeft: '10px' }} >inmobiliaria.koolel.kaab@gmail.com</p>
+                            </a>
+                            <div className="cont-oficina-enter">
+                                <i style={{ marginTop: '4px' }} className="fas fa-map-marker-alt animate__animated animate__fadeIn"></i>
+                                <p style={{ marginLeft: '10px' }} >C. 18A #255, x 11. Fracc. Altabrisa, Privada Quinta Real </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <form onSubmit={enviarMensaje} className="form-contacto">
+                        <h4>Escríbenos</h4>
+
+                        <div>
+                            <input type="text" placeholder="Nombre" onChange={handleInputChange} name="nombre" />
+                            <input type="email" placeholder="Correo" onChange={handleInputChange} name="correo" />
+                            <input type="text" placeholder="Teléfono" onChange={handleInputChange} name="numero" />
+                            <textarea name="textarea" placeholder="Mensaje" onChange={handleInputChange} rows="5" style={{ marginBottom: '7px' }} name="mensaje" />
+
+                            <input type="submit" value="Enviar" />
+                        </div>
+
+                    </form>
+
+
+                    <div className="cont-prin-map-ubi">
+                        <h4>Agenda Una Cita</h4>
+                        <div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.1865955478033!2d-89.58117868506743!3d21.025218586000282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56771609d7b52b%3A0x20134d775406896a!2sInmobiliaria%20Koolel-Kaab!5e0!3m2!1ses-419!2smx!4v1649814995900!5m2!1ses-419!2smx" width="300" height="300" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+        </section >
     )
 }
 

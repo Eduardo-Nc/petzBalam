@@ -1,63 +1,102 @@
 import React, { Fragment } from 'react';
 import './caracteristicas.css';
 import logo from '../../imagenes/logo.png';
-import dinero from '../../imagenes/dinero.png';
+import luz from '../../imagenes/luz.png';
 import seguridad from '../../imagenes/seguridad.png';
 import naturaleza from '../../imagenes/naturaleza.png';
 import parque from '../../imagenes/parque.png';
 import binoculares from '../../imagenes/binoculares.png';
 import chichen from '../../imagenes/chichen.png';
+import Carac from '../../imagenes/ame1.png';
+import Carac2 from '../../imagenes/ame2.png';
+import Desc from '../../imagenes/hacienda1.jpg';
+// import Testi from '../../imagenes/9.png';
+import Testi from '../../imagenes/9.mp4';
 
-import img04 from '../../imagenes/meses.jpeg';
+import 'video-react/dist/video-react.css'; // import css
+import videoPrincipal from '../../imagenes/preciosVideo.mp4';
+import { Player, ControlBar } from 'video-react';
+import ReactPlayer from 'react-player';
+
+import img04 from '../../imagenes/5.jpeg';
 
 const Caracteristicas = () => {
     return (
 
         <Fragment>
-            <section id="caracteristicas">
-                <div className="content-caracteristicas-texto">
-                    <h1>Características</h1>
-                    <img src={logo} alt="Logo" />
-                    <p>Hacienda PetzBalam Country Land</p>
-                    <h3>¡Conócenos y enamórate!</h3>
+
+            {/* <section className="cont-prin-hacienda-sillas">
+                <div className="cont-prin-hacienda-sillas-titulo">
+                    <h1>HACIENDA SAN DIEGO PETZBALAM</h1>
                 </div>
-
-                <div className="content-caracteristicas-fotos">
-                    <div className="content-caracteristicas-item">
-                        <img src={dinero} alt="Inversión " />
-                        <h4>Tu inversión con un 25% anual</h4>
+                <div className="cont2-prin-hacienda-sillas">
+                    <div className="cont3-prin-hacienda-sillas">
+                        <h2>UNA TIERRA DE ENSUEÑO</h2>
+                        <p>
+                            Único desarrollo que cuenta con una
+                            HACIENDA HENEQUENERA restaurada y
+                            remodelada, que va desde 1830, la cuál
+                            estará dentro del complejo y servirá para
+                            el disfrute de los huéspedes del mismo.
+                        </p>
                     </div>
-
-                    <div className="content-caracteristicas-item">
-                        <img src={seguridad} alt="Propiedad privada" />
-                        <h4>Propiedad privada</h4>
-                    </div>
-
-                    <div className="content-caracteristicas-item">
-                        <img src={naturaleza} alt="Convivencia" />
-                        <h4>Convivencia con áreas verdes</h4>
-                    </div>
-
-                    <div className="content-caracteristicas-item">
-                        <img src={parque} alt="Áreas de descanso" />
-                        <h4>Áreas de descanso</h4>
-                    </div>
-
-                    <div className="content-caracteristicas-item">
-                        <img src={binoculares} alt="Miradores" />
-                        <h4>Miradores</h4>
-                    </div>
-
-                    <div className="content-caracteristicas-item">
-                        <img src={chichen} alt="Zonas arqueológicas" />
-                        <h4>Zonas arqueológicas cercanas</h4>
+                    <div className="cont-prin-hacienda-sillas-img">
+                        <img src={Desc} />
                     </div>
                 </div>
+            </section> */}
+
+            <section style={{ marginBottom: '10px', marginTop: '20px' }} id="caracteristicas">
+
+                <div>
+                    <img src={Carac} />
+                </div>
+
             </section>
 
-            <section id="opciones-de-pago">
-                <img src={img04} alt="Servicios" />
+            <section style={{ marginBottom: '40px', marginTop: '50px' }} id="caracteristicas">
+
+                <div>
+                    <img src={Carac2} />
+                </div>
+
             </section>
+
+            <section style={{ marginBottom: '10px' }} id="opciones-de-pago">
+                {/* <img src={img04} alt="Servicios" /> */}
+                {/* <Player playing onPlay autoPlay={true} loop>
+                    <source src={videoPrincipal} />
+                    <ControlBar autoHide={true} />
+                </Player> */}
+
+                <ReactPlayer
+                    url={videoPrincipal}
+                    width='100%'
+                    height='100%'
+                    playing={true}
+                    muted={true}
+                    loop={true}
+                    controls={false}
+                />
+
+            </section>
+
+            <section className="cont-testimonios">
+                <div>
+                    <ReactPlayer
+                        url={Testi}
+                        width='100%'
+                        height='100%'
+                        playing={true}
+                        muted={true}
+                        loop={true}
+                        controls={false}
+                    />
+                    {/* <img src={Testi} /> */}
+                </div>
+
+            </section>
+
         </Fragment>
     )
 }
