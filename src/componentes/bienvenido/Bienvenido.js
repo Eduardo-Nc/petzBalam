@@ -9,7 +9,7 @@ const Bienvenido = () => {
 
             <div className="cont-ubicacion-1">
                 <div className="content-item-text-b">
-                    <h1>UNA UBICACIÓN ÚNICA</h1>
+                    <h1>UNA UBICACIÓN excepcional</h1>
                 </div>
 
                 <div className="cont-ubicacion-1-divisor"></div>
@@ -21,9 +21,7 @@ const Bienvenido = () => {
                 </div>
                 <div className="cont-ubicacion-p-2">
                     <p>
-                        Ubicado a 25 minutos de la ciudad de Mérida Yucatán, 45 minutos
-                        del Aeropuerto Internacional Yucateca. Así como a 5 minutos de la
-                        Zona Arqueológica de Xcambo.
+                        Ubicado a 25 minutos del periférico de Mérida  Yucatán y a 45 minutos del Aeropuerto Internacional de Mérida (Manuel Crescencio Rejón). A pocos Kilómetros de la Zona Arqueológica de XCAMBÓ.
                     </p>
                 </div>
             </div>

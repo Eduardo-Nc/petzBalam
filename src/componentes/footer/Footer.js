@@ -4,7 +4,8 @@ import whatsapp from '../../imagenes/whatsapp.png';
 import ChatBot from 'react-simple-chatbot';
 import NavLogo6 from '../../../src/imagenes/logoChat.png'
 import axios from 'axios';
-
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
+import logo from '../../imagenes/logo.png';
 
 
 const Footer = () => {
@@ -128,13 +129,22 @@ const Footer = () => {
 
     return (
         <div className="main-content-footer">
-            <h1>Hacienda PetzBalam Country Land</h1>
+            <h1>Hacienda San Diego “Tierra de ensueño”</h1>
 
-            <div className="content-whatsapp">
+            {/* <div className="content-whatsapp">
                 <a href="https://wa.me/529841832326/?text=Quiero recibir más información acerca del desarrollo Hacienda PetzBalam Country Land" target="_blank" rel="noreferrer" title="WhatsApp" >
                     <img src={whatsapp} alt="Whatsapp" />
                 </a>
+            </div> */}
+
+            <div className="content-whatsapp">
+                <FloatingWhatsApp phoneNumber={529841832326} avatar={logo} statusMessage="Atención personalizada" chatMessage="Hola, ¿En qué podemos ayudarle?" placeholder="Mensaje" accountName="Hacienda San Diego “Tierra de ensueño”" />
             </div>
+
+            <div className="content-whatsapp-movil">
+                <FloatingWhatsApp phoneNumber={529841832326} avatar={logo} statusMessage="Atención personalizada" chatMessage="Hola, ¿En qué podemos ayudarle?" placeholder="Mensaje" accountName="Hacienda San Diego “Tierra de ensueño”" />
+            </div>
+
 
             <div className="content-chatbot">
                 <div style={{ display: open ? 'flex' : 'none' }} className="cont-sec-chatbot">

@@ -142,9 +142,9 @@ const Contacto = () => {
                                 {/* <p style={{ marginLeft: '10px' }} >(999)-247-647</p> */}
                                 <p style={{ marginLeft: '10px' }} >(984)-183-2326</p>
                             </a>
-                            <a href="mailto:inmobiliaria.koolel.kaab@gmail.com" style={{ textDecoration: 'none' }} className="cont-oficina-enter">
+                            <a href="mailto:registro@inmobiliaria-koolel-kaab.com.mx" style={{ textDecoration: 'none' }} className="cont-oficina-enter">
                                 <i style={{ marginTop: '4px' }} className="fas fa-envelope animate__animated animate__fadeIn"></i>
-                                <p style={{ marginLeft: '10px' }} >inmobiliaria.koolel.kaab@gmail.com</p>
+                                <p style={{ marginLeft: '10px' }} >registro@inmobiliaria-koolel-kaab.com.mx</p>
                             </a>
                             <div className="cont-oficina-enter">
                                 <i style={{ marginTop: '4px' }} className="fas fa-map-marker-alt animate__animated animate__fadeIn"></i>

@@ -67,7 +67,13 @@ const Header = () => {
                                 </div>
 
                                 <div className="content-border-social-media-movil">
-                                    <a onClick={() => cerrar()} href="https://www.facebook.com/Desarrolloinmobiliariopetzbalam/" target="_blank" rel="noreferrer" title="Facebook">
+                                    <a onClick={() => cerrar()} href="https://www.youtube.com/channel/UCx0X79xkzDSIIRwlR3TyFYQ" target="_blank" rel="noreferrer" title="Youtube">
+                                        <i className="fab fa-youtube animate__animated animate__fadeIn"></i>
+                                    </a>
+                                </div>
+
+                                <div className="content-border-social-media-movil">
+                                    <a onClick={() => cerrar()} href="https://www.facebook.com/Desarrolloinmobiliariopetzbalam" target="_blank" rel="noreferrer" title="Facebook">
                                         <i className="fab fa-facebook animate__animated animate__fadeIn"></i>
                                     </a>
                                 </div>
@@ -81,6 +87,12 @@ const Header = () => {
                         <div className="content-border-social-media">
                             <a onClick={() => cerrar()} href="https://www.instagram.com/haciendasandiegopetzbalam/" target="_blank" rel="noreferrer" title="Instagram">
                                 <i className="fab fa-instagram animate__animated animate__fadeIn"></i>
+                            </a>
+                        </div>
+
+                        <div className="content-border-social-media">
+                            <a href="https://www.youtube.com/channel/UCx0X79xkzDSIIRwlR3TyFYQ" target="_blank" rel="noreferrer" title="YouTube">
+                                <i className="fab fa-youtube animate__animated animate__fadeIn"></i>
                             </a>
                         </div>
 
